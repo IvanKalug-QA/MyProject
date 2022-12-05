@@ -16,3 +16,7 @@ FROM Company;
 SELECT *
 FROM Trip
 WHERE town_from = 'Moscow';
+
+//Task: Print the names of people that end in "man"
+//Условие задачи: Вывести имена людей, которые заканчиваются на "man"
+
