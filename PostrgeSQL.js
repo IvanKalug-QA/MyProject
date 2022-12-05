@@ -10,3 +10,7 @@ FROM passenger;
 //Услдовие задачи: Выведите названия всех авиакомпаний
 SELECT name
 FROM Company;
+
+//Task: Bring out all flights made from Moscow
+//Условие задачи: Вывести все рейсы, совершенные из Москвы
+
