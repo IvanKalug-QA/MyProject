@@ -8,4 +8,5 @@ FROM passenger;
 
 //Task: Print the names of all airlines
 //Услдовие задачи: Выведите названия всех авиакомпаний
-
+SELECT name
+FROM Company;
