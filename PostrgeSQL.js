@@ -13,4 +13,6 @@ FROM Company;
 
 //Task: Bring out all flights made from Moscow
 //Условие задачи: Вывести все рейсы, совершенные из Москвы
-
+SELECT *
+FROM Trip
+WHERE town_from = 'Moscow';
