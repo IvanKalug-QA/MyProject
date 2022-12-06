@@ -28,3 +28,6 @@ WHERE name LIKE '%man%';
 SELECT COUNT(plane) as count
 FROM Trip
 WHERE plane = 'TU-134';
+
+//Task: Which companies have flown on Boeing?
+//Условие задачи: Какие компании летали на Boeing?
