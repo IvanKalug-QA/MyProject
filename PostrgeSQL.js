@@ -25,3 +25,6 @@ WHERE name LIKE '%man%';
 
 //Task: Print the number of flights made on TU-134
 //Условие задачи: Вывести количество рейсов, выполненных на ТУ-134
+SELECT COUNT(plane) as count
+FROM Trip
+WHERE plane = 'TU-134';
