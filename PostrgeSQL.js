@@ -46,4 +46,7 @@ GROUP BY plane;
 
 //Task:  Flight ,committed from 10 a.m. to 14 p.m. on January 1 , 1900 .
 //Условие задачи: Вывести вылеты, совершенные с 10 ч. по 14 ч. 1 января 1900 г.
+SELECT *
+FROM trip
+WHERE time_out BETWEEN '1900-01-01 10:00' AND '1900-01-01 14:00'
 
