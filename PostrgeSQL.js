@@ -39,4 +39,8 @@ GROUP BY name;
 
 //Task: Print all the names of the planes on which you can fly to Moscow
 //Условие задачи: Выведите все названия самолетов, на которых вы можете вылететь в Москву
+SELECT plane
+FROM Trip
+WHERE town_from = 'Moscow'
+GROUP BY plane;
 
