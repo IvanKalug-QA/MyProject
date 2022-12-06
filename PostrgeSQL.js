@@ -31,3 +31,8 @@ WHERE plane = 'TU-134';
 
 //Task: Which companies have flown on Boeing?
 //Условие задачи: Какие компании летали на Boeing?
+SELECT company.name
+FROM Company
+  LEFT JOIN Trip ON Trip.company = Company.id
+WHERE plane = 'Boeing'
+GROUP BY name;
