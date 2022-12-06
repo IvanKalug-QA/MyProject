@@ -22,3 +22,6 @@ WHERE town_from = 'Moscow';
 SELECT name
 FROM passenger
 WHERE name LIKE '%man%';
+
+//Task: Print the number of flights made on TU-134
+//Условие задачи: Вывести количество рейсов, выполненных на ТУ-134
