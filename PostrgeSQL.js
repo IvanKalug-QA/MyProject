@@ -21,7 +21,7 @@ WHERE town_from = 'Moscow';
 //Условие задачи: Вывести имена людей, которые заканчиваются на "man"
 SELECT name
 FROM passenger
-WHERE name LIKE '%man%';
+WHERE name LIKE '%man';
 
 //Task: Print the number of flights made on TU-134
 //Условие задачи: Вывести количество рейсов, выполненных на ТУ-134
@@ -36,3 +36,7 @@ FROM Company
   LEFT JOIN Trip ON Trip.company = Company.id
 WHERE plane = 'Boeing'
 GROUP BY name;
+
+//Task: Print all the names of the planes on which you can fly to Moscow
+//Условие задачи: Выведите все названия самолетов, на которых вы можете вылететь в Москву
+
