@@ -60,3 +60,7 @@ GROUP BY name;
 
 //Task: Display passengers with the longest name
 //Условие задачи: Вывести пассажиров с самым длинным именем
+SELECT name
+FROM Passenger
+ORDER BY LENGTH(name) DESC
+LIMIT 1
