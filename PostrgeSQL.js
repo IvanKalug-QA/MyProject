@@ -67,3 +67,7 @@ LIMIT 1
 
 //Task: Output the id and number of passengers for all past flights
 //Условие задачи: Вывести id и количество пассажиров для всех прошедших полётов
+SELECT Pass_in_trip.trip,
+  COUNT(passenger) AS count
+FROM Pass_in_trip
+GROUP BY trip
