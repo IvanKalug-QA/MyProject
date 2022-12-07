@@ -64,3 +64,6 @@ SELECT name
 FROM Passenger
 ORDER BY LENGTH(name) DESC
 LIMIT 1
+
+//Task: Output the id and number of passengers for all past flights
+//Условие задачи: Вывести id и количество пассажиров для всех прошедших полётов
