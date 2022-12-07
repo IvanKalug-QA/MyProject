@@ -50,3 +50,5 @@ SELECT *
 FROM trip
 WHERE time_out BETWEEN '1900-01-01 10:00' AND '1900-01-01 14:00'
 
+//Task: Which companies organize flights from Vladivostok
+//Условие задачи: Какие компании организуют рейсы из Владивостока
