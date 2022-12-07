@@ -57,3 +57,6 @@ FROM Company
   INNER JOIN Trip ON Company.id = Trip.company
 WHERE Trip.town_from = 'Vladivostok'
 GROUP BY name;
+
+//Task: Display passengers with the longest name
+//Условие задачи: Вывести пассажиров с самым длинным именем
