@@ -82,3 +82,9 @@ ORDER BY COUNT(*) DESC
 
 //Task: Which cities did Bruce Willis fly to
 //Условие задачи: В какие города летал Брюс Уиллис
+SELECT Trip.town_to
+FROM Trip
+  INNER JOIN Pass_in_trip ON Trip.id = Pass_in_trip.trip
+  INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE Passenger.name = 'Bruce Willis'
+GROUP BY town_to;
