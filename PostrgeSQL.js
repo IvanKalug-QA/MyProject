@@ -88,3 +88,6 @@ FROM Trip
   INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
 WHERE Passenger.name = 'Bruce Willis'
 GROUP BY town_to;
+
+//Task: Print the date and time of arrival of passenger Steve Martin to London (London)
+//Условие задачи: Выведите дату и время прилёта пассажира Стив Мартин (Steve Martin) в Лондон (London)
