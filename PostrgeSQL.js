@@ -74,3 +74,8 @@ GROUP BY trip
 
 //Task: Print the names of people who have a full namesake among the passengers
 //Условие задачи: Выведите имена людей, у которых есть полные тезки среди пассажиров
+SELECT name
+FROM Passenger
+GROUP BY name
+HAVING COUNT(*) > 1
+ORDER BY COUNT(*) DESC
