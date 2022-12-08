@@ -79,3 +79,6 @@ FROM Passenger
 GROUP BY name
 HAVING COUNT(*) > 1
 ORDER BY COUNT(*) DESC
+
+//Task: Which cities did Bruce Willis fly to
+//Условие задачи: В какие города летал Брюс Уиллис
