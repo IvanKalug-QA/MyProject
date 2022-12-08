@@ -71,3 +71,6 @@ SELECT Pass_in_trip.trip,
   COUNT(passenger) AS count
 FROM Pass_in_trip
 GROUP BY trip
+
+//Task: Print the names of people who have a full namesake among the passengers
+//Условие задачи: Выведите имена людей, у которых есть полные тезки среди пассажиров
