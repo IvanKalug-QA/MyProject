@@ -113,3 +113,9 @@ ORDER BY count DESC,
 
 //Task: Determine which family member bought potatoes
 //Условие задачи: Определить, кто из членов семьи покупал картошку
+SELECT FamilyMembers.status
+FROM FamilyMembers
+  INNER JOIN Payments ON FamilyMembers.member_id = Payments.family_member
+  INNER JOIN Goods ON Payments.good = Goods.good_id
+WHERE Goods.good_name = 'potato'
+GROUP BY status
