@@ -110,3 +110,6 @@ WHERE passenger >= 1
 GROUP BY name
 ORDER BY count DESC,
   name ASC
+
+//Task: Determine which family member bought potatoes
+//Условие задачи: Определить, кто из членов семьи покупал картошку
