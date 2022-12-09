@@ -98,3 +98,6 @@ FROM Trip
 WHERE Passenger.name = 'Steve Martin'
   AND Trip.town_to = 'London'
 GROUP BY time_in
+
+//Task: Output a list of passengers sorted by the number of flights (descending) and name (ascending) who have made at least 1 flight.
+//Условие задачи: Вывести отсортированный по количеству перелетов (по убыванию) и имени (по возрастанию) список пассажиров, совершивших хотя бы 1 полет.
