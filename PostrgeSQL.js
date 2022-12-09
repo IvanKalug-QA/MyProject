@@ -119,3 +119,6 @@ FROM FamilyMembers
   INNER JOIN Goods ON Payments.good = Goods.good_id
 WHERE Goods.good_name = 'potato'
 GROUP BY status
+
+//Task: How much and who from the family spent on entertainment (entertainment). Output family status, name, amount
+//Условие задачи: Сколько и кто из семьи потратил на развлечения (entertainment). Вывести статус в семье, имя, сумму
