@@ -122,3 +122,13 @@ GROUP BY status
 
 //Task: How much and who from the family spent on entertainment (entertainment). Output family status, name, amount
 //Условие задачи: Сколько и кто из семьи потратил на развлечения (entertainment). Вывести статус в семье, имя, сумму
+SELECT FamilyMembers.status,
+  FamilyMembers.member_name,
+  SUM(unit_price * amount) AS costs
+FROM FamilyMembers
+  INNER JOIN Payments ON FamilyMembers.member_id = Payments.family_member
+  INNER JOIN Goods ON Payments.good = Goods.good_id
+  INNER JOIN GoodTypes ON Goods.type = GoodTypes.good_type_id
+WHERE GoodTypes.good_type_name = 'entertainment'
+GROUP BY status,
+  member_name;
