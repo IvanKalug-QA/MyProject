@@ -101,3 +101,12 @@ GROUP BY time_in
 
 //Task: Output a list of passengers sorted by the number of flights (descending) and name (ascending) who have made at least 1 flight.
 //Условие задачи: Вывести отсортированный по количеству перелетов (по убыванию) и имени (по возрастанию) список пассажиров, совершивших хотя бы 1 полет.
+SELECT Passenger.name,
+  COUNT(place) AS count
+FROM Trip
+  INNER JOIN Pass_in_trip ON Trip.id = Pass_in_trip.trip
+  INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE passenger >= 1
+GROUP BY name
+ORDER BY count DESC,
+  name ASC
