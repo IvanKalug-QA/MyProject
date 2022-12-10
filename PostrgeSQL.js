@@ -144,3 +144,7 @@ HAVING COUNT(amount) > 1
 
 //Task: Find the names of all mothers
 //Условие задачи: Найти имена всех матерей
+SELECT member_name
+FROM FamilyMembers
+WHERE status = 'mother'
+GROUP BY member_name;
