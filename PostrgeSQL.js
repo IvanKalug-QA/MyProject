@@ -141,3 +141,6 @@ FROM Goods
   INNER JOIN GoodTypes ON Goods.type = GoodTypes.good_type_id
 GROUP BY good_name
 HAVING COUNT(amount) > 1
+
+//Task: Find the names of all mothers
+//Условие задачи: Найти имена всех матерей
