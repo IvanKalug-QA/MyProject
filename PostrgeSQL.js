@@ -148,3 +148,6 @@ SELECT member_name
 FROM FamilyMembers
 WHERE status = 'mother'
 GROUP BY member_name;
+
+//Task: Find the most expensive delicacy and display its cost
+//Условие задачи: Найдите самый дорогой деликатес  и выведите его стоимость
