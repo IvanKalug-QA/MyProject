@@ -151,3 +151,13 @@ GROUP BY member_name;
 
 //Task: Find the most expensive delicacy and display its cost
 //Условие задачи: Найдите самый дорогой деликатес  и выведите его стоимость
+SELECT Goods.good_name,
+  Payments.unit_price
+FROM Payments
+  INNER JOIN Goods ON Payments.good = Goods.good_id
+  INNER JOIN GoodTypes ON Goods.type = GoodTypes.good_type_id
+WHERE GoodTypes.good_type_name = 'delicacies'
+GROUP BY good_name,
+  unit_price
+HAVING (unit_price)
+LIMIT 1
