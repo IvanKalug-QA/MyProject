@@ -132,3 +132,6 @@ FROM FamilyMembers
 WHERE GoodTypes.good_type_name = 'entertainment'
 GROUP BY status,
   member_name;
+
+//Task: Identify products that have been bought more than 1 time
+//Условие задачи: Определить товары, которые покупали более 1 раза
