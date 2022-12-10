@@ -135,3 +135,9 @@ GROUP BY status,
 
 //Task: Identify products that have been bought more than 1 time
 //Условие задачи: Определить товары, которые покупали более 1 раза
+SELECT Goods.good_name
+FROM Goods
+  INNER JOIN Payments ON Goods.good_id = Payments.good
+  INNER JOIN GoodTypes ON Goods.type = GoodTypes.good_type_id
+GROUP BY good_name
+HAVING COUNT(amount) > 1
