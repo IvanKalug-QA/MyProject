@@ -183,3 +183,8 @@ WHERE good_id NOT IN (
 
 //Task: How many flights have airlines made from Rostov to Moscow ?
 //Условие задачи: Сколько рейсов совершили авиакомпании из Ростова в Москву?
+SELECT COUNT(company) AS count
+FROM Trip
+  INNER JOIN Company ON Trip.company = Company.id
+WHERE town_from = 'Rostov'
+  AND town_to = 'Moscow'
