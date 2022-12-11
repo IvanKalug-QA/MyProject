@@ -161,3 +161,6 @@ GROUP BY good_name,
   unit_price
 HAVING (unit_price)
 LIMIT 1
+
+//Task: Determine who spent and how much in June 2005
+//Условие задачи: Определить кто и сколько потратил в июне 2005
