@@ -180,3 +180,6 @@ WHERE good_id NOT IN (
     FROM Payments
     WHERE YEAR(date) = 2005
  )
+
+//Task: How many flights have airlines made from Rostov to Moscow ?
+//Условие задачи: Сколько рейсов совершили авиакомпании из Ростова в Москву?
