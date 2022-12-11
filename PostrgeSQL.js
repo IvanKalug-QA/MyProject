@@ -170,3 +170,6 @@ FROM FamilyMembers
   INNER JOIN Payments ON FamilyMembers.member_id = Payments.family_member
 WHERE Payments.date BETWEEN '2005-06-01' AND '2005-06-30'
 GROUP BY member_name;
+
+//Task: Determine which products were not purchased in 2005
+//Условие задачи: Определить, какие товары не покупались в 2005 году
