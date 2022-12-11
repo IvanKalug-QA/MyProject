@@ -173,3 +173,10 @@ GROUP BY member_name;
 
 //Task: Determine which products were not purchased in 2005
 //Условие задачи: Определить, какие товары не покупались в 2005 году
+SELECT Goods.good_name
+FROM Goods
+WHERE good_id NOT IN (
+    SELECT good
+    FROM Payments
+    WHERE YEAR(date) = 2005
+ )
