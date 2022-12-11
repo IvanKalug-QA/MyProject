@@ -164,3 +164,9 @@ LIMIT 1
 
 //Task: Determine who spent and how much in June 2005
 //Условие задачи: Определить кто и сколько потратил в июне 2005
+SELECT FamilyMembers.member_name,
+  SUM(unit_price * amount) AS costs
+FROM FamilyMembers
+  INNER JOIN Payments ON FamilyMembers.member_id = Payments.family_member
+WHERE Payments.date BETWEEN '2005-06-01' AND '2005-06-30'
+GROUP BY member_name;
