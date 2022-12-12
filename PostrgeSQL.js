@@ -188,3 +188,6 @@ FROM Trip
   INNER JOIN Company ON Trip.company = Company.id
 WHERE town_from = 'Rostov'
   AND town_to = 'Moscow'
+
+//Task: Print the names of the passengers who flew to Moscow on the TU-134 plane
+//Условие задачи: Выведите имена пассажиров, прилетевших в Москву на самолете ТУ-134
