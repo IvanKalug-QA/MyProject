@@ -208,3 +208,6 @@ FROM Pass_in_trip
   INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
 GROUP BY trip
 ORDER BY count DESC
+
+//Task: Output all family members with the surname Quincey.
+//Условие задачи: Вывести всех членов семьи с фамилией Quincey.
