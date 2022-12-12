@@ -201,3 +201,10 @@ GROUP BY name
 
 //Task: Output the load (number of passengers) of each flight. Output the result in sorted form in descending order of load.
 //Условие задачи: Выведите нагруженность (число пассажиров) каждого рейса. Результат вывести в отсортированном виде по убыванию нагруженности.
+SELECT Pass_in_trip.trip,
+  COUNT(passenger) AS count
+FROM Pass_in_trip
+  INNER JOIN Trip ON Pass_in_trip.trip = Trip.id
+  INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+GROUP BY trip
+ORDER BY count DESC
