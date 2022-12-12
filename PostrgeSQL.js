@@ -191,3 +191,10 @@ WHERE town_from = 'Rostov'
 
 //Task: Print the names of the passengers who flew to Moscow on the TU-134 plane
 //Условие задачи: Выведите имена пассажиров, прилетевших в Москву на самолете ТУ-134
+SELECT Passenger.name
+FROM Trip
+  INNER JOIN Pass_in_trip ON Trip.id = Pass_in_trip.trip
+  INNER JOIN Passenger ON Pass_in_trip.passenger = Passenger.id
+WHERE Trip.town_to = 'Moscow'
+  AND Trip.plane = 'TU-134'
+GROUP BY name
