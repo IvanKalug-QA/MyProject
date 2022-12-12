@@ -211,3 +211,6 @@ ORDER BY count DESC
 
 //Task: Output all family members with the surname Quincey.
 //Условие задачи: Вывести всех членов семьи с фамилией Quincey.
+SELECT *
+FROM FamilyMembers
+WHERE member_name LIKE '%Quincey%'
