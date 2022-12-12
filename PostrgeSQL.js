@@ -198,3 +198,6 @@ FROM Trip
 WHERE Trip.town_to = 'Moscow'
   AND Trip.plane = 'TU-134'
 GROUP BY name
+
+//Task: Output the load (number of passengers) of each flight. Output the result in sorted form in descending order of load.
+//Условие задачи: Выведите нагруженность (число пассажиров) каждого рейса. Результат вывести в отсортированном виде по убыванию нагруженности.
