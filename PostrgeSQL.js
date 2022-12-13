@@ -217,4 +217,7 @@ WHERE member_name LIKE '%Quincey%'
 
 //Task: What time does the 4th academic subject start according to the schedule?.
 //Условие задачи: Во сколько начинается 4-ый учебный предмет по расписанию ?
+SELECT start_pair
+FROM Timepair
+WHERE id = 4
 
