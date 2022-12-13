@@ -215,5 +215,6 @@ SELECT *
 FROM FamilyMembers
 WHERE member_name LIKE '%Quincey%'
 
-//Task: Output the average age of people (in years) stored in the database. Round the result down to a whole.
-//Условие задачи: Вывести средний возраст людей (в годах), хранящихся в базе данных. Результат округлите до целого в меньшую сторону.
+//Task: What time does the 4th academic subject start according to the schedule?.
+//Условие задачи: Во сколько начинается 4-ый учебный предмет по расписанию ?
+
