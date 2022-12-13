@@ -223,4 +223,10 @@ WHERE id = 4
 
 //Task: Print the names of the teachers who lead physical culture (Physical Culture). Sort the teachers by last name.
 //Условие задачи: Выведите имена учителей, которые ведут физическую культуру (Physical Culture). Отсортируйте учителей по фамилии.
+SELECT Teacher.last_name
+FROM Teacher
+  INNER JOIN Schedule ON Teacher.id = Schedule.teacher
+  INNER JOIN Subject ON Schedule.subject = Subject.id
+WHERE Subject.name = 'Physical Culture'
+ORDER BY last_name
 
