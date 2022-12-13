@@ -232,4 +232,6 @@ ORDER BY last_name
 
 //Task: Add a product with the name "Cheese" and the type "food" to the list of products.
 //Условие задачи: Добавьте товар с именем "Cheese" и типом "food" в список товаров .
+INSERT INTO Goods (good_id, good_name, type)
+VALUES (17, 'Cheese', 2)
 
