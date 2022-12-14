@@ -237,4 +237,6 @@ VALUES (17, 'Cheese', 2)
 
 //Task: Add a new type of "auto" to the list of product types.
 //Условие задачи: Добавьте в список типов товаров новый тип "auto".
+INSERT INTO GoodTypes (good_type_id, good_type_name)
+VALUES (9, 'auto')
 
