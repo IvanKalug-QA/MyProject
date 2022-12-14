@@ -258,4 +258,7 @@ WHERE town_from = 'Moscow'
 
 //Task: Withdraw users who have specified a Belarusian phone number?
 //Условие задачи: Вывести пользователей,указавших Белорусский номер телефона ?
+SELECT *
+FROM Users
+WHERE phone_number LIKE '%+375%'
 
