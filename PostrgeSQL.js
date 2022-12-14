@@ -242,4 +242,7 @@ VALUES (9, 'auto')
 
 //Task: Change the name "Andie Quincey" to the new "Andie Anthony".
 //Условие задачи: Измените имя "Andie Quincey" на новое "Andie Anthony".
+UPDATE FamilyMembers
+SET member_name = 'Andie Anthony'
+WHERE member_id = 3
 
