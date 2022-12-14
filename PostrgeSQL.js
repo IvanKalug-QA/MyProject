@@ -256,3 +256,6 @@ WHERE member_name LIKE '%Quincey%'
 DELETE FROM Trip
 WHERE town_from = 'Moscow'
 
+//Task: Withdraw users who have specified a Belarusian phone number?
+//Условие задачи: Вывести пользователей,указавших Белорусский номер телефона ?
+
