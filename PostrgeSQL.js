@@ -235,3 +235,6 @@ ORDER BY last_name
 INSERT INTO Goods (good_id, good_name, type)
 VALUES (17, 'Cheese', 2)
 
+//Task: Add a new type of "auto" to the list of product types.
+//Условие задачи: Добавьте в список типов товаров новый тип "auto".
+
