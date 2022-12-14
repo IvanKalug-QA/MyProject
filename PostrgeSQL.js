@@ -251,3 +251,6 @@ WHERE member_id = 3
 DELETE FROM FamilyMembers
 WHERE member_name LIKE '%Quincey%'
 
+//Task: Delete all flights made from Moscow
+//Условие задачи: Удалить все рейсы, выполненные из Москвы
+
