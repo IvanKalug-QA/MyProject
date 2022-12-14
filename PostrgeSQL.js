@@ -248,4 +248,6 @@ WHERE member_id = 3
 
 //Task: Delete all family members with the surname "Quincy".
 //Условие задачи: Удалить всех членов семьи с фамилией "Quincey".
+DELETE FROM FamilyMembers
+WHERE member_name LIKE '%Quincey%'
 
