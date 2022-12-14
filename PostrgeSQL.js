@@ -240,3 +240,6 @@ VALUES (17, 'Cheese', 2)
 INSERT INTO GoodTypes (good_type_id, good_type_name)
 VALUES (9, 'auto')
 
+//Task: Change the name "Andie Quincey" to the new "Andie Anthony".
+//Условие задачи: Измените имя "Andie Quincey" на новое "Andie Anthony".
+
