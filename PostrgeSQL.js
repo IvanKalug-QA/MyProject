@@ -253,4 +253,6 @@ WHERE member_name LIKE '%Quincey%'
 
 //Task: Delete all flights made from Moscow
 //Условие задачи: Удалить все рейсы, выполненные из Москвы
+DELETE FROM Trip
+WHERE town_from = 'Moscow'
 
