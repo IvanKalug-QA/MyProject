@@ -246,3 +246,6 @@ UPDATE FamilyMembers
 SET member_name = 'Andie Anthony'
 WHERE member_id = 3
 
+//Task: Delete all family members with the surname "Quincy".
+//Условие задачи: Удалить всех членов семьи с фамилией "Quincey".
+
