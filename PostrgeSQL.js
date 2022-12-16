@@ -262,3 +262,6 @@ SELECT *
 FROM Users
 WHERE phone_number LIKE '%+375%'
 
+//Today I studied nested conditions
+//Сегодня я изучал вложенные условия
+
