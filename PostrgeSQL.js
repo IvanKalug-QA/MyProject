@@ -273,3 +273,10 @@ CASE
          END
 END
 
+//Syntax
+CASE выражение
+    WHEN значение THEN результат
+    [WHEN ...]
+    [ELSE результат]
+END
+
