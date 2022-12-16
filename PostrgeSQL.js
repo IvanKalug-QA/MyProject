@@ -264,4 +264,12 @@ WHERE phone_number LIKE '%+375%'
 
 //Today I studied nested conditions
 //Сегодня я изучал вложенные условия
+//For example:
+CASE
+     WHEN condition THEN
+         CASE
+             WHEN othercondition THEN
+                 ....
+         END
+END
 
