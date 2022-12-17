@@ -293,3 +293,6 @@ SELECT *
  WHERE     (department_id = 50 OR department_id = 80)
        AND commission_pct IS NOT NULL;
 
+//Task: Get a list of all employees whose salary is in the range from 8000 to 9000
+//Условие задачи: Получить список всех сотрудников у которых зарплата находится в промежутке от 8000 до 9000
+
