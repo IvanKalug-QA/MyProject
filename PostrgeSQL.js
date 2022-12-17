@@ -288,4 +288,8 @@ SELECT *
 
 //Task: Get a list of all employees from the 50th and 80th department who have a bonus
 //Условие задачи: Получите список всех сотрудников из 50-го и 80-го отделов, у которых есть бонус
+SELECT *
+  FROM employees
+ WHERE     (department_id = 50 OR department_id = 80)
+       AND commission_pct IS NOT NULL;
 
