@@ -282,4 +282,7 @@ END
 
 //Task: Get a list of all employees whose last letter in the name is 'a'
 //условие задачи: Получить список всех сотрудников у которых последняя буква в имени равна 'a'
+SELECT *
+  FROM employees
+ WHERE first_name LIKE '%a';
 
