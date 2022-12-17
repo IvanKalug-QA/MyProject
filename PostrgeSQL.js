@@ -280,3 +280,6 @@ CASE выражение
     [ELSE результат]
 END
 
+//Task: Get a list of all employees whose last letter in the name is 'a'
+//условие задачи: Получить список всех сотрудников у которых последняя буква в имени равна 'a'
+
