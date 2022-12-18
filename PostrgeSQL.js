@@ -299,3 +299,6 @@ SELECT *
   FROM employees
  WHERE salary BETWEEN 8000 AND 9000;
 
+//Task: In which classes does the Krause teacher teach?
+//Условие задачи: В каких классах введет занятия преподаватель "Krauze" ?
+
