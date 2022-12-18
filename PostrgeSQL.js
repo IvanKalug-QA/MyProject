@@ -308,3 +308,6 @@ FROM Class
 WHERE Teacher.last_name = 'Krauze'
 GROUP BY name
 
+//Task: How many 10th graders are there in total
+//Условие задачи: Сколько всего 10-ых классов
+
