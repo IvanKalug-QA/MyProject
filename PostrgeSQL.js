@@ -317,4 +317,9 @@ WHERE Class.name LIKE '10%'
 
 //Task: Print the name of the subjects that Romashkin P.P. teaches.
 //Условие задачи: Выведите название предметов, которые преподает Ромашкин П.П.
+SELECT name AS subjects
+FROM Subject
+  INNER JOIN Schedule ON Subject.id = Schedule.subject
+  INNER JOIN Teacher ON Schedule.teacher = Teacher.id
+WHERE Teacher.last_name = 'Romashkin'
 
