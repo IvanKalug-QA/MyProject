@@ -315,3 +315,6 @@ FROM Student_in_class
   INNER JOIN Class ON Student_in_class.class = Class.id
 WHERE Class.name LIKE '10%'
 
+//Task: Print the name of the subjects that Romashkin P.P. teaches.
+//Условие задачи: Выведите название предметов, которые преподает Ромашкин П.П.
+
