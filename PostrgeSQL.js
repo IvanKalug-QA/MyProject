@@ -301,4 +301,10 @@ SELECT *
 
 //Task: In which classes does the Krause teacher teach?
 //Условие задачи: В каких классах введет занятия преподаватель "Krauze" ?
+SELECT Class.name
+FROM Class
+  INNER JOIN Schedule ON Class.id = Schedule.class
+  INNER JOIN Teacher ON Schedule.teacher = Teacher.id
+WHERE Teacher.last_name = 'Krauze'
+GROUP BY name
 
