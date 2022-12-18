@@ -310,4 +310,8 @@ GROUP BY name
 
 //Task: How many 10th graders are there in total
 //Условие задачи: Сколько всего 10-ых классов
+SELECT COUNT(DISTINCT class) AS count
+FROM Student_in_class
+  INNER JOIN Class ON Student_in_class.class = Class.id
+WHERE Class.name LIKE '10%'
 
