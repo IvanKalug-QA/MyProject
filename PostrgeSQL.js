@@ -341,4 +341,7 @@ FROM Timepair;
 
 //Task: How many different classrooms of the school were used on 2.09.2019 for educational purposes ?
 //Условие задачи: Сколько различных кабинетов школы использовались 2.09.2019 в образовательных целях ?
+SELECT COUNT(DISTINCT classroom) AS count
+FROM Schedule
+WHERE Schedule.date = '2019-09-02'
 
