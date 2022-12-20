@@ -323,3 +323,6 @@ FROM Subject
   INNER JOIN Teacher ON Schedule.teacher = Teacher.id
 WHERE Teacher.last_name = 'Romashkin'
 
+//Task: How long will the student stay at school, studying from the 2nd to the 4th academic subject?
+//Условие задачи: Сколько времени обучающийся будет находиться в школе, учась со 2-го по 4-ый уч. предмет ?
+
