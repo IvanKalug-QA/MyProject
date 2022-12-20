@@ -347,4 +347,6 @@ WHERE Schedule.date = '2019-09-02'
 
 //Task: Output the average age of people (in years) stored in the database. Round the result down to a whole.
 //Условие задачи: Вывести средний возраст людей (в годах), хранящихся в базе данных. Результат округлите до целого в меньшую сторону.
+SELECT FLOOR(AVG(YEAR(CURRENT_DATE) - YEAR(birthday))) AS age
+FROM FamilyMembers;
 
