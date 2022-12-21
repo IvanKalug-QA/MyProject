@@ -352,4 +352,10 @@ FROM FamilyMembers;
 
 //Explore: Today I studied how to change the current information in the table
 //Изучил: Сегодня я изучил, как изменить текущую информацию в таблице
+UPDATE
+    table_name
+SET
+   column name = field value
+WHERE
+   condition
 
