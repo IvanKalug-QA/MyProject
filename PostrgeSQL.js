@@ -350,3 +350,6 @@ WHERE Schedule.date = '2019-09-02'
 SELECT FLOOR(AVG(YEAR(CURRENT_DATE) - YEAR(birthday))) AS age
 FROM FamilyMembers;
 
+//Explore: Today I studied how to change the current information in the table
+//Изучил: Сегодня я изучил, как изменить текущую информацию в таблице
+
