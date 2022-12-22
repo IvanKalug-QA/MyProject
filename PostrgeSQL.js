@@ -362,4 +362,6 @@ WHERE
 //Study: Today I studied how to create a database
 //Изучил: Сегодня я изучал, как создать базу данных
 createdb -T template0 database_name
+//Explanation: A template that creates a clean database
+//Пояснение: Шаблон, который создает чистую базу данных
 
