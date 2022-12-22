@@ -361,4 +361,5 @@ WHERE
 
 //Study: Today I studied how to create a database
 //Изучил: Сегодня я изучал, как создать базу данных
+createdb -T template0 database_name
 
