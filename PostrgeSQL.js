@@ -359,3 +359,6 @@ SET
 WHERE
    condition
 
+//Study: Today I studied how to create a database
+//Изучил: Сегодня я изучал, как создать базу данных
+
