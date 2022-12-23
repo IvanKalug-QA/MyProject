@@ -367,4 +367,9 @@ createdb -T template0 database_name
 
 //Study: Today I learned how to add a new row to a table
 //Изучил: Сегодня я узнал, как добавить новую строку в таблицу
+INSERT INTO
+table_name
+(column_name)
+VALUES
+(Meaning_1)
 
