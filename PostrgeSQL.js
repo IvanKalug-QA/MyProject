@@ -365,3 +365,6 @@ createdb -T template0 database_name
 //Explanation: A template that creates a clean database
 //Пояснение: Шаблон, который создает чистую базу данных
 
+//Study: Today I learned how to add a new row to a table
+//Изучил: Сегодня я узнал, как добавить новую строку в таблицу
+
