@@ -373,3 +373,6 @@ table_name
 VALUES
 (Meaning_1)
 
+//Study: Today I learned how to apply the construction CASE
+//Изучил: Сегодня я узнал, как применять конструкцию CASE
+
