@@ -380,4 +380,6 @@ CASE
     WHEN Condition_2 THEN Result_2
     ELSE Result_3
 END;
+//Explanation: This construction creates the condition
+//Пояснение: Эта конструкция создает условие
 
