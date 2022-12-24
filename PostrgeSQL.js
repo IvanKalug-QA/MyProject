@@ -375,4 +375,9 @@ VALUES
 
 //Study: Today I learned how to apply the construction CASE
 //Изучил: Сегодня я узнал, как применять конструкцию CASE
+CASE
+    WHEN Condition_1 THEN Result_1
+    WHEN Condition_2 THEN Result_2
+    ELSE Result_3
+END;
 
