@@ -383,3 +383,6 @@ END;
 //Explanation: This construction creates the condition
 //Пояснение: Эта конструкция создает условие
 
+//Study: Today I learned how to delete data from a table
+//Изучил: Сегодня я узнал, как удалить данные из таблицы
+
