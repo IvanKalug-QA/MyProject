@@ -385,4 +385,8 @@ END;
 
 //Study: Today I learned how to delete data from a table
 //Изучил: Сегодня я узнал, как удалить данные из таблицы
+DELETE FROM
+      table_name
+WHERE
+      Condition;
 
