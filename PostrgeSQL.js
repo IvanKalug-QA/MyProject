@@ -392,4 +392,7 @@ WHERE
 
 //Task: Get a list of all employees from the 20th and from the 30th department
 //Условие задачи: Получите список всех сотрудников из 20-го и из 30-го отделов
+SELECT *
+  FROM employees
+ WHERE department_id = 20 OR department_id = 30;
 
