@@ -404,4 +404,7 @@ SELECT *
 
 //Task: Get a list of all employees with job_id equal to 'IT_PROG'
 //Условие задачи: Получите список всех сотрудников с job_id, равным 'IT_PROG'
+SELECT *
+  FROM employees
+ WHERE job_id = 'IT_PROG'
 
