@@ -396,3 +396,6 @@ SELECT *
   FROM employees
  WHERE department_id = 20 OR department_id = 30;
 
+//Task: Get a list of all employees from the 50th department with a salary greater than 4000
+//Условие задачи: Получите список всех сотрудников из 50-го отдела с зарплатой более 4000
+
