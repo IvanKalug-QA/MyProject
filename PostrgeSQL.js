@@ -390,3 +390,6 @@ DELETE FROM
 WHERE
       Condition;
 
+//Task: Get a list of all employees from the 20th and from the 30th department
+//Условие задачи: Получите список всех сотрудников из 20-го и из 30-го отделов
+
