@@ -402,3 +402,6 @@ SELECT *
   FROM employees
  WHERE department_id = 50 AND salary > 4000;
 
+//Task: Get a list of all employees with job_id equal to 'IT_PROG'
+//Условие задачи: Получите список всех сотрудников с job_id, равным 'IT_PROG'
+
