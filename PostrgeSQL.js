@@ -422,4 +422,14 @@ SELECT *
 
 //Task: Get the salary level of each employee: Less than 5000 is considered Low level, More than or equal to 5000 and less than 10000 is considered Normal level, More than or equal to 10000 is considered High level
 //Условие задачи: Получите уровень заработной платы каждого сотрудника: Менее 5000 считается низким уровнем, больше или равным 5000 и менее 10000 считается нормальным уровнем, больше или равным 10000 считается высоким уровнем.
+SELECT first_name,
+       salary,
+       CASE
+           WHEN salary < 5000 THEN 'Low'
+           WHEN salary >= 5000 AND salary < 10000 THEN 'Normal'
+           WHEN salary >= 10000 THEN 'High'
+           ELSE 'Unknown'
+       END
+           salary_level
+  FROM employees;
 
