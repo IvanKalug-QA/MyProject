@@ -416,4 +416,7 @@ SELECT *
 
 //Task: Get a list of all employees whose name length is more than 10 letters
 //Условие задачи: Получите список всех сотрудников, длина имени которых превышает 10 букв
+SELECT *
+  FROM employees
+ WHERE LENGTH (first_name) > 10;
 
