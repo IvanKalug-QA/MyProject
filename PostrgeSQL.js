@@ -408,3 +408,6 @@ SELECT *
   FROM employees
  WHERE job_id = 'IT_PROG'
 
+//Task: Get a list of all employees whose last letter in the name is 'a'
+//Условие задачи: Получите список всех сотрудников, последняя буква в названии которых - "а".
+
