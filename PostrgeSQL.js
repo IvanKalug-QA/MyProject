@@ -448,4 +448,11 @@ price < 600;
 
 //Task: For each manufacturer that produces PC notebooks with a hard disk capacity of at least 10 GB, find the speeds of such PC notebooks.
 //Условие задачи: Для каждого производителя, выпускающего ПК-блокноты c объёмом жесткого диска не менее 10 Гбайт, найти скорости таких ПК-блокнотов.
+SELECT DISTINCT Product.maker, Laptop.speed
+FROM Product, Laptop
+WHERE Laptop.hd >= 10 AND
+ type IN(SELECT type
+ FROM Product
+ WHERE type = 'laptop'
+ );
 
