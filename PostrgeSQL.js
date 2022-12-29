@@ -433,3 +433,6 @@ SELECT first_name,
            salary_level
   FROM employees;
 
+//Task: Find the model number, speed, and hard drive size for all PCs priced under $500.
+//Условие задачи: Найдите номер модели, скорость и размер жесткого диска для всех ПК стоимостью менее 500 долларов.
+
