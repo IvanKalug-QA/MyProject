@@ -439,3 +439,6 @@ SELECT model, speed, hd
 FROM PC
 WHERE price < 500;
 
+//Task: Find the model number, speed and size of the hard disk of a PC with a 12x or 24x CD and a price of less than $ 600.
+//Условие задачи: Найдите номер модели, скорость и размер жесткого диска ПК с 12-кратным или 24-кратным компакт-диском и ценой менее 600 долларов.
+
