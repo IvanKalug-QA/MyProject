@@ -446,3 +446,6 @@ FROM PC
 WHERE PC.cd IN ('12x', '24x') AND
 price < 600;
 
+//Task: For each manufacturer that produces PC notebooks with a hard disk capacity of at least 10 GB, find the speeds of such PC notebooks.
+//Условие задачи: Для каждого производителя, выпускающего ПК-блокноты c объёмом жесткого диска не менее 10 Гбайт, найти скорости таких ПК-блокнотов.
+
