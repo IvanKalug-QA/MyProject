@@ -435,4 +435,7 @@ SELECT first_name,
 
 //Task: Find the model number, speed, and hard drive size for all PCs priced under $500.
 //Условие задачи: Найдите номер модели, скорость и размер жесткого диска для всех ПК стоимостью менее 500 долларов.
+SELECT model, speed, hd
+FROM PC
+WHERE price < 500;
 
