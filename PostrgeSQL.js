@@ -468,4 +468,5 @@ WHERE
 
 //Command: To create a dump
 //Команда: Для создания дампа
+pg_dump database_name > the path and name of the dump file
 
