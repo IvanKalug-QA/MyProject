@@ -456,3 +456,6 @@ WHERE Laptop.hd >= 10 AND
  WHERE type = 'laptop'
  );
 
+//Task: Select books whose rating field is not empty
+//Условие задачи: Выберите книги, поле рейтинга которых не является пустым
+
