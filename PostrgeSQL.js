@@ -466,3 +466,6 @@ FROM
 WHERE
      rating IS NOT NULL;
 
+//Command: To create a dump
+//Команда: Для создания дампа
+
