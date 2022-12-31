@@ -470,3 +470,6 @@ WHERE
 //Команда: Для создания дампа
 pg_dump database_name > the path and name of the dump file
 
+//Command: Only certain tables can be copied with this command
+//Команда: С помощью этой команды можно скопировать только определенные таблицы
+
