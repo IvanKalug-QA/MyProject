@@ -474,3 +474,6 @@ pg_dump database_name > the path and name of the dump file
 //Команда: С помощью этой команды можно скопировать только определенные таблицы
 pg_dump -t table_name1 -t table_name2 database_name > the path and name of the dump file
 
+//Command: This command can be used to restore the dump
+//Команда: Эта команда может быть использована для восстановления дампа
+
