@@ -481,4 +481,6 @@ psql database_name < the path and name of the dump file
 //Command: This command is needed to connect to the database
 //Команда: Эта команда нужна чтобы подключиться к базе данных
 psql -U user_name -d database_name
+//Explanation: After entering this command, you will be asked for a password, by default it is smith
+//Пояснение: После ввода этой команды, у вас потребуют пароль, по умолчанию он - smith
 
