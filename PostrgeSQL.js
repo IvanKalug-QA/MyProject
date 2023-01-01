@@ -478,3 +478,6 @@ pg_dump -t table_name1 -t table_name2 database_name > the path and name of the d
 //Команда: Эта команда может быть использована для восстановления дампа
 psql database_name < the path and name of the dump file
 
+//Command: This command is needed to connect to the database
+//Команда: Эта команда нужна чтобы подключиться к базе данных
+
