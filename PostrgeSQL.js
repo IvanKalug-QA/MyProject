@@ -499,3 +499,6 @@ SELECT
     DISTINCT author AS unique_authors
 FROM
     books;
+
+//Task: Calculate the average price of books
+//Условие задачи: Рассчитайте среднюю цену книг
