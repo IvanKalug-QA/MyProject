@@ -486,3 +486,9 @@ psql -U user_name -d database_name
 
 //Task: Count the number of books that Remarque has written
 //Условие задачи: Подсчитайте количество книг, написанных Ремарком
+SELECT
+    COUNT(*) AS cnt
+FROM
+    books
+WHERE
+    author = "Эрих Мария Ремарк";
