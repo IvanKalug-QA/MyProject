@@ -502,3 +502,7 @@ FROM
 
 //Task: Calculate the average price of books
 //Условие задачи: Рассчитайте среднюю цену книг
+SELECT
+     AVG(price) AS average
+FROM
+     books;
