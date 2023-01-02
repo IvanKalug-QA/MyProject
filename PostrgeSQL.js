@@ -492,3 +492,6 @@ FROM
     books
 WHERE
     author = "Эрих Мария Ремарк";
+
+//Task: Select only unique authors
+//Условие задачи: Выбрать только уникальных авторов.
