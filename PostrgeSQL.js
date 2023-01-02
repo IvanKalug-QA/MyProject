@@ -495,3 +495,7 @@ WHERE
 
 //Task: Select only unique authors
 //Условие задачи: Выбрать только уникальных авторов.
+SELECT
+    DISTINCT author AS unique_authors
+FROM
+    books;
