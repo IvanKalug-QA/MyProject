@@ -506,3 +506,6 @@ SELECT
      AVG(price) AS average
 FROM
      books;
+
+//Task: Find the total cost of all books
+//Условие задачи: Найдите общую стоимость всех книг
