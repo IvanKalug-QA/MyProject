@@ -523,3 +523,6 @@ FROM
      books
 WHERE
      pub_name IN ('АСТ', 'ЛитРес', 'Росмэн', 'Эксмо');
+
+//Task: Print the title of the book, the author's name and the price from 1990 to 2001
+//Условие задачи: Напечатайте название книги, имя автора и цену с 1990 по 2001 год
