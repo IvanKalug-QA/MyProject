@@ -516,3 +516,10 @@ FROM
 
 //Task: Return all book titles from the same publisher
 //Условие задачи: Вернуть все названия книг от одного и того же издателя
+SELECT
+     name,
+     pub_name
+FROM
+     books
+WHERE
+     pub_name IN ('АСТ', 'ЛитРес', 'Росмэн', 'Эксмо');
