@@ -509,3 +509,7 @@ FROM
 
 //Task: Find the total cost of all books
 //Условие задачи: Найдите общую стоимость всех книг
+SELECT
+    SUM(price) AS summa
+FROM
+    books;
