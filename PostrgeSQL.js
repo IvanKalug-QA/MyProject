@@ -513,3 +513,6 @@ SELECT
     SUM(price) AS summa
 FROM
     books;
+
+//Task: Return all book titles from the same publisher
+//Условие задачи: Вернуть все названия книг от одного и того же издателя
