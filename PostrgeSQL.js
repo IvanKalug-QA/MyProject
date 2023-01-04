@@ -535,3 +535,6 @@ FROM
      books
 WHERE
      date_pub BETWEEN "1991-01-01" AND "2000-12-31";
+
+//Task: Print all the books that Remarque did not write
+//Условие задачи: Напечатать все книги, которые Ремарк не писал
