@@ -548,3 +548,7 @@ WHERE
 
 //Task: Return the number of rows in the table
 //Условие задачи: Вернуть количество строк в таблице
+SELECT
+   COUNT(*) AS cnt
+FROM
+   books;
