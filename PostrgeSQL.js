@@ -552,3 +552,6 @@ SELECT
    COUNT(*) AS cnt
 FROM
    books;
+
+//Task: Find the average number of pages
+//Условие задачи: Найдите среднее количество страниц
