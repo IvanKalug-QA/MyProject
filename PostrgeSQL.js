@@ -555,3 +555,7 @@ FROM
 
 //Task: Find the average number of pages
 //Условие задачи: Найдите среднее количество страниц
+SELECT
+   AVG(page :: integer) AS average
+FROM
+   books;
