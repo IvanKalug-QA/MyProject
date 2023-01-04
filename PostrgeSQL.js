@@ -545,3 +545,6 @@ FROM
     books
 WHERE
     author != 'Эрих Мария Ремарк';
+
+//Task: Return the number of rows in the table
+//Условие задачи: Вернуть количество строк в таблице
