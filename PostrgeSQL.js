@@ -538,3 +538,10 @@ WHERE
 
 //Task: Print all the books that Remarque did not write
 //Условие задачи: Напечатать все книги, которые Ремарк не писал
+SELECT
+    name,
+    author
+FROM
+    books
+WHERE
+    author != 'Эрих Мария Ремарк';
