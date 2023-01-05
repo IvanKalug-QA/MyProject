@@ -559,3 +559,6 @@ SELECT
    AVG(page :: integer) AS average
 FROM
    books;
+
+//Task: Check if there are gaps in the price table
+//Условие задачи: Проверьте, нет ли пробелов в таблице цен
