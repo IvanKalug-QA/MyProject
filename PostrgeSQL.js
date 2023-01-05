@@ -569,3 +569,6 @@ FROM
      books
 WHERE
      price IS NULL;
+
+//Task: Select the name field and the price field from the books table. If there is no value in the price column, replace it with 234
+//Условие задачи: Выберите поле название и поле цена в таблице книги. Если в столбце цена нет значения, замените его на 234
