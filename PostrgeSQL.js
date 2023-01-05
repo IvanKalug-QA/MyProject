@@ -562,3 +562,10 @@ FROM
 
 //Task: Check if there are gaps in the price table
 //Условие задачи: Проверьте, нет ли пробелов в таблице цен
+SELECT
+     name,
+     price
+FROM
+     books
+WHERE
+     price IS NULL;
