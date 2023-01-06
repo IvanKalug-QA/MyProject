@@ -35,3 +35,6 @@ async function test() {
   await browser.close();
 }
 test();
+
+//My Autotest_2
+//Мой Автотест_2
