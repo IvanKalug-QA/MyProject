@@ -588,3 +588,14 @@ FROM
 
 //Explore: Today I learned another way to create a database
 //Изучил: Сегодня я узнал еще один способ создания базы данных
+CREATE DATABASE имя
+    [ WITH ] [ OWNER [=] имя_пользователя ]
+           [ TEMPLATE [=] шаблон ]
+           [ ENCODING [=] кодировка ]
+           [ LOCALE [=] локаль ]
+           [ LC_COLLATE [=] категория_сортировки ]
+           [ LC_CTYPE [=] категория_типов_символов ]
+           [ TABLESPACE [=] табл_пространство ]
+           [ ALLOW_CONNECTIONS [=] разр_подключения ]
+           [ CONNECTION LIMIT [=] предел_подключений ]
+           [ IS_TEMPLATE [=] это_шаблон ]
