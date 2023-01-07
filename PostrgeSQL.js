@@ -578,3 +578,6 @@ SELECT
     ELSE price END AS price_info
 FROM
     books;
+
+//Task: How long will the student stay at school, studying from the 2nd to the 4th academic subject?
+//Условие задачи: Как долго ученик пробудет в школе, изучая со 2-го по 4-й учебный предмет?
