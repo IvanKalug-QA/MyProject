@@ -585,3 +585,6 @@ FROM
      DISTINCT TIMEDIFF((SELECT end_pair FROM Timepair WHERE id = 4), (SELECT start_pair FROM Timepair WHERE id = 2)) as time
   FROM
      Timepair;
+
+//Explore: Today I learned another way to create a database
+//Изучил: Сегодня я узнал еще один способ создания базы данных
