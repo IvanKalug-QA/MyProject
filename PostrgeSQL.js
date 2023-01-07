@@ -581,3 +581,7 @@ FROM
 
 //Task: How long will the student stay at school, studying from the 2nd to the 4th academic subject?
 //Условие задачи: Как долго ученик пробудет в школе, изучая со 2-го по 4-й учебный предмет?
+ SELECT
+     DISTINCT TIMEDIFF((SELECT end_pair FROM Timepair WHERE id = 4), (SELECT start_pair FROM Timepair WHERE id = 2)) as time
+  FROM
+     Timepair;
