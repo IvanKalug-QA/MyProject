@@ -599,3 +599,6 @@ CREATE DATABASE имя
            [ ALLOW_CONNECTIONS [=] разр_подключения ]
            [ CONNECTION LIMIT [=] предел_подключений ]
            [ IS_TEMPLATE [=] это_шаблон ]
+
+//Task: Get a list of all employees whose name contains the symbol '%'
+//Условие задачи: Получите список всех сотрудников, имя которых содержит символ '%'
