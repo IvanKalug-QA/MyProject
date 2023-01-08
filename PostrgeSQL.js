@@ -602,3 +602,6 @@ CREATE DATABASE имя
 
 //Task: Get a list of all employees whose name contains the symbol '%'
 //Условие задачи: Получите список всех сотрудников, имя которых содержит символ '%'
+SELECT *
+  FROM employees
+ WHERE first_name LIKE '%\%%' ESCAPE '\';
