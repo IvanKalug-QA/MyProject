@@ -620,3 +620,7 @@ SELECT *
 
 //Task: Get a list of region_id the sum of all letters of all country_name in which there are more than 60
 //Условие задачи: Получите список region_id - сумма всех букв всех названий стран, в которых их более 60
+SELECT region_id
+    FROM countries
+GROUP BY region_id
+  HAVING SUM (LENGTH (country_name)) > 60;
