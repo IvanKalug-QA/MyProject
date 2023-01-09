@@ -617,3 +617,6 @@ SELECT *
 SELECT *
   FROM employees
  WHERE SUBSTR (first_name, -1) = 'm' AND LENGTH(first_name)>5;
+
+//Task: Get a list of region_id the sum of all letters of all country_name in which there are more than 60
+//Условие задачи: Получите список region_id - сумма всех букв всех названий стран, в которых их более 60
