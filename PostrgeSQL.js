@@ -614,3 +614,6 @@ SELECT *
 
 //Task: Get a list of all employees whose last letter in the name is equal to 'm' and the name length is greater than 5
 //Условие задачи: Получите список всех сотрудников, последняя буква имени которых равна "м", а длина имени больше 5
+SELECT *
+  FROM employees
+ WHERE SUBSTR (first_name, -1) = 'm' AND LENGTH(first_name)>5;
