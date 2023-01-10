@@ -624,3 +624,6 @@ SELECT region_id
     FROM countries
 GROUP BY region_id
   HAVING SUM (LENGTH (country_name)) > 60;
+
+//Task: Get a list of employees with the longest name.
+//Условие задачи: Получите список сотрудников с самым длинным именем.
