@@ -631,3 +631,6 @@ SELECT *
   FROM employees
  WHERE LENGTH (first_name) =
        (SELECT MAX (LENGTH (first_name)) FROM employees);
+
+//Task: Get a list of department_id with more than 30 employees
+//Условие задачи: Получите список department_id с более чем 30 сотрудниками
