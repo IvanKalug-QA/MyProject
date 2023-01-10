@@ -627,3 +627,7 @@ GROUP BY region_id
 
 //Task: Get a list of employees with the longest name.
 //Условие задачи: Получите список сотрудников с самым длинным именем.
+SELECT *
+  FROM employees
+ WHERE LENGTH (first_name) =
+       (SELECT MAX (LENGTH (first_name)) FROM employees);
