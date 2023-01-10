@@ -634,3 +634,7 @@ SELECT *
 
 //Task: Get a list of department_id with more than 30 employees
 //Условие задачи: Получите список department_id с более чем 30 сотрудниками
+SELECT department_id
+    FROM employees
+GROUP BY department_id
+  HAVING COUNT (*) > 30;
