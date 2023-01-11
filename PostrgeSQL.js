@@ -644,3 +644,6 @@ GROUP BY department_id
 SELECT *
 FROM Customers
 WHERE Country='Mexico';
+
+//Task: A table showing the number of users in each country.
+//Условие задачи: Таблица, показывающая количество пользователей в каждой стране.
