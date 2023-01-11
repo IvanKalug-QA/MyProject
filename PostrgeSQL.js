@@ -647,3 +647,6 @@ WHERE Country='Mexico';
 
 //Task: A table showing the number of users in each country.
 //Условие задачи: Таблица, показывающая количество пользователей в каждой стране.
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
