@@ -641,3 +641,6 @@ GROUP BY department_id
 
 //Task: Withdraw all customers from Mexico
 //Условие задачи: Вывести всех клиентов из мексики
+SELECT *
+FROM Customers
+WHERE Country='Mexico';
