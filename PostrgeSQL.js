@@ -638,3 +638,6 @@ SELECT department_id
     FROM employees
 GROUP BY department_id
   HAVING COUNT (*) > 30;
+
+//Task: Withdraw all customers from Mexico
+//Условие задачи: Вывести всех клиентов из мексики
