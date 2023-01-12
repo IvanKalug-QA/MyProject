@@ -653,3 +653,8 @@ GROUP BY Country;
 
 //Explore: Today I learned how to get data from two tables
 //Узнал: Сегодня я узнал, как получать данные из двух таблиц
+SELECT
+     column_name
+FROM
+     table_name
+INNER JOIN table_name2 IN Table1.column_name = Table2.column_name;
