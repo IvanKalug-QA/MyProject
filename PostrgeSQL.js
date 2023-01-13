@@ -658,3 +658,6 @@ SELECT
 FROM
      table_name
 INNER JOIN table_name2 IN Table1.column_name = Table2.column_name;
+
+//Explore: Today I learned how to print the psql version and shut down
+//Узнал: Сегодня я узнал, как распечатать версию psql и завершить работу
