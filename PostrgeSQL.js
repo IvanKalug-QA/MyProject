@@ -663,3 +663,7 @@ INNER JOIN table_name2 IN Table1.column_name = Table2.column_name;
 //Узнал: Сегодня я узнал, как распечатать версию psql и завершить работу
 -V
 //--version
+
+
+//Explore: Today I found out with the help of which command you can find out how much disk space is occupied by the specified layer of this table
+//Узнал: Сегодня я выяснил, с помощью какой команды можно узнать, сколько места на диске занимает указанный слой этой таблицы
