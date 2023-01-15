@@ -668,3 +668,6 @@ INNER JOIN table_name2 IN Table1.column_name = Table2.column_name;
 //Explore: Today I found out with the help of which command you can find out how much disk space is occupied by the specified layer of this table
 //Узнал: Сегодня я выяснил, с помощью какой команды можно узнать, сколько места на диске занимает указанный слой этой таблицы
 SELECT pg_relation_size('accounts');
+
+//Explore: Today I learned how to make psql request a password before connecting to the database
+//Узнал: Сегодня я узнал, как заставить psql запрашивать пароль перед подключением к базе данных
