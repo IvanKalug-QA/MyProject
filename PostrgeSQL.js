@@ -671,3 +671,5 @@ SELECT pg_relation_size('accounts');
 
 //Explore: Today I learned how to make psql request a password before connecting to the database
 //Узнал: Сегодня я узнал, как заставить psql запрашивать пароль перед подключением к базе данных
+-W
+//--password
