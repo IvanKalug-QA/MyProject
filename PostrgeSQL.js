@@ -673,3 +673,6 @@ SELECT pg_relation_size('accounts');
 //Узнал: Сегодня я узнал, как заставить psql запрашивать пароль перед подключением к базе данных
 -W
 //--password
+
+//Explore: Today I learned how to remove the sorting rule
+//Узнал: Сегодня я узнал, как удалить правило сортировки
