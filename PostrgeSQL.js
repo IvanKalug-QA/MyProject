@@ -676,3 +676,4 @@ SELECT pg_relation_size('accounts');
 
 //Explore: Today I learned how to remove the sorting rule
 //Узнал: Сегодня я узнал, как удалить правило сортировки
+DROP COLLATION [ IF EXISTS ] имя [ CASCADE | RESTRICT ]
