@@ -680,3 +680,4 @@ DROP COLLATION [ IF EXISTS ] имя [ CASCADE | RESTRICT ]
 
 //Explore: Today I found out how to connect to a certain database
 //Узнал:Сегодня я узнал, как подключиться к определенной базе данных
+\c database_name;
