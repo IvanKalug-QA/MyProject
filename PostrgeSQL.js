@@ -684,3 +684,4 @@ DROP COLLATION [ IF EXISTS ] имя [ CASCADE | RESTRICT ]
 
 //Explore: Today I learned how to convert types
 //Узнал: Сегодня я узнал, как конвертировать типы
+SELECT CAST ('365' AS INT);
