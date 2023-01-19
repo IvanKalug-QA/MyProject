@@ -688,3 +688,4 @@ SELECT CAST ('365' AS INT);
 
 //Explore: Today I learned how to get a list of databases
 //Узнал: Сегодня я узнал, как получить список баз данных
+\l
