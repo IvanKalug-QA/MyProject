@@ -692,3 +692,4 @@ SELECT CAST ('365' AS INT);
 
 //Explore: Today I learned how to output the current database connection
 //Узнал: Сегодня я узнал, как вывести текущее подключение к базе данных
+\conninfo
