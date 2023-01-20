@@ -689,3 +689,6 @@ SELECT CAST ('365' AS INT);
 //Explore: Today I learned how to get a list of databases
 //Узнал: Сегодня я узнал, как получить список баз данных
 \l
+
+//Explore: Today I learned how to output the current database connection
+//Узнал: Сегодня я узнал, как вывести текущее подключение к базе данных
