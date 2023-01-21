@@ -696,3 +696,4 @@ SELECT CAST ('365' AS INT);
 
 //Explore: Today I found out with which command you can create a file
 //Узнал: Сегодня я узнал, с помощью какой команды вы можете создать файл
+touch file_name
