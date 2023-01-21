@@ -693,3 +693,6 @@ SELECT CAST ('365' AS INT);
 //Explore: Today I learned how to output the current database connection
 //Узнал: Сегодня я узнал, как вывести текущее подключение к базе данных
 \conninfo
+
+//Explore: Today I found out with which command you can create a file
+//Узнал: Сегодня я узнал, с помощью какой команды вы можете создать файл
