@@ -700,3 +700,4 @@ touch file_name
 
 //Explore: Today I found out with which command you can save a file
 //Узнал: Сегодня я узнал, с помощью какой команды вы можете сохранить файл
+echo file_name > file_name;
