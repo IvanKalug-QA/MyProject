@@ -709,3 +709,4 @@ cat file_name;
 
 //Explore: Today I found out with which command you can transfer a file from the current directory to the home directory
 //Узнал: Сегодня я узнал, с помощью какой команды вы можете перенести файл из текущего каталога в домашний каталог
+mv card.txt ~/
