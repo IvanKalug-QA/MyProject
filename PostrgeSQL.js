@@ -715,3 +715,6 @@ mv card.txt ~/
 //Explore: Today I learned how to view a file in the editor
 //Узнал: Сегодня я узнал, как просмотреть файл в редакторе
 nano apache_2020-01-01.txt
+
+//Explore: Today I found out with which command you can create a directory
+//Узнал: Сегодня я узнал, с помощью какой команды вы можете создать каталог
