@@ -722,3 +722,4 @@ mkdir var/log/temp
 
 //Explore: Today I found out with which command you can copy a file or folder
 //Узнал: Сегодня я узнал, с помощью какой команды вы можете скопировать файл или папку
+cp logs/2020/1/apache_2020-01-01.txt copy
