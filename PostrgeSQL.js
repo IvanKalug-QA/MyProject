@@ -727,3 +727,4 @@ cp logs/2020/1/apache_2020-01-01.txt copy
 
 //Explore: Today I found out with which command you can delete empty folders
 //Узнал: Сегодня я узнал, с помощью какой команды вы можете удалять пустые папки
+rmdir
